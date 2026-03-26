@@ -293,6 +293,6 @@ with col1:
             if st.session_state.turn_count >= st.session_state.max_turn:
                 st.warning("턴을 모두 사용했습니다. 이제 최종 지목을 해야 합니다.")
     elif st.session_state.case_closed:
-        st.info("사건이 종료되었습니다. 왼쪽 버튼으로 게임을 초기화할 수 있습니다.")
+        st.info("사건이 종료되었습니다. 오른쪽 버튼으로 게임을 초기화할 수 있습니다.")
     else:
         st.warning("턴을 모두 사용했습니다. 범인을 지목하세요.")
